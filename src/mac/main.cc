@@ -53,12 +53,6 @@ static Value LogFault(const Napi::CallbackInfo &info) {
   return _log_with_type(info, OS_LOG_TYPE_FAULT);
 }
 Object Init(Napi::Env env, Object exports) {
-  printf("OS_LOG_TYPE_DEBUG: %d\n", OS_LOG_TYPE_DEBUG);
-  printf("OS_LOG_TYPE_INFO: %d\n", OS_LOG_TYPE_INFO);
-  printf("OS_LOG_TYPE_DEFAULT: %d\n", OS_LOG_TYPE_DEFAULT);
-  printf("OS_LOG_TYPE_ERROR: %d\n", OS_LOG_TYPE_ERROR);
-  printf("OS_LOG_TYPE_FAULT: %d\n", OS_LOG_TYPE_FAULT);
-
   exports.Set("os_log_with_type", Function::New(env, LogWithType));
   exports.Set("os_log", Function::New(env, LogDefault));
   exports.Set("os_log_info", Function::New(env, LogInfo));

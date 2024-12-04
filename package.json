@@ -1,6 +1,6 @@
 {
   "name": "node-mac-oslog",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "os_log for node and electron",
   "main": "dist/index.js",
   "gypfile": true,
