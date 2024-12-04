@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "node_oslog",
+      "target_name": "node_mac_oslog",
       "cflags!": ["-fno-exceptions"],
       "cflags_cc!": ["-fno-exceptions"],
       "sources": ["src/mac/main.cc"],

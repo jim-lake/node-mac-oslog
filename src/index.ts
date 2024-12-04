@@ -1,4 +1,4 @@
-const addon = require('../build/Release/node_oslog.node');
+const addon = require('../build/Release/node_mac_oslog.node');
 const util = require('node:util');
 
 type OS_LOG_TYPE_DEFAULT = 0x00;

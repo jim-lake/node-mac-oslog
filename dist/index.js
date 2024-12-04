@@ -1,4 +1,4 @@
-const addon = require('../build/Release/node_oslog.node');
+const addon = require('../build/Release/node_mac_oslog.node');
 const util = require('node:util');
 exports.os_log_with_type = os_log_with_type;
 exports.os_log = os_log;
