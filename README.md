@@ -1,1 +1,1 @@
-# node-oslog
+# node-mac-oslog
